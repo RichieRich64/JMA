@@ -11,3 +11,7 @@ States
 
 The onClick function must pass through a function that returns the removeCharacter() method, otherwise it will try to run automatically.
 filter does not mutate but rather creates a new array, and is a preferred method for modifying arrays in JavaScript.
+
+
+Promise.all with Async/Await
+https://www.taniarascia.com/promise-all-with-async-await/
