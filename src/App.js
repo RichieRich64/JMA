@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Table from './Table'
 import Form from './Form'
 import Api from './Api'
+import Promise from './Promise'
 class App extends Component {
     state = {
         characters: [],
@@ -62,9 +63,14 @@ class App extends Component {
                 {/* <h1>Hello, React!</h1> */}
                 <Table characterData={characters} removeCharacter={this.removeCharacter} />
                 <Form handleSubmit={this.handleSubmit}/>
+
                 <br />
                 <hr />
                 <Api apiData={apiData}/>
+
+                <br />
+                <hr />
+                <Promise />
             </div>
         )
     }
